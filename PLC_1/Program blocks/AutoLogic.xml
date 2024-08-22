@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V18" />
+  <SW.Blocks.OB ID="0">
+    <AttributeList>
+      <AutoNumber>true</AutoNumber>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input">
+    <Member Name="Initial_Call" Datatype="Bool" Accessibility="Public" Informative="true">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Initial call of this OB</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Remanence" Datatype="Bool" Accessibility="Public" Informative="true">
+      <Comment>
+        <MultiLanguageText Lang="en-US">=True, if remanent data are available</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+  <Section Name="Temp">
+    <Member Name="UTL_TIME" Datatype="Array[0..2] of DInt" />
+    <Member Name="chbs_cmd" Datatype="Bool" />
+    <Member Name="chbr_cmd" Datatype="Bool" />
+    <Member Name="STEAM_MAN_SCV_MVE" Datatype="Real" />
+    <Member Name="STEAM_SCV_MVE" Datatype="Real" />
+    <Member Name="STEAM_SCV_SCL" Datatype="Real" />
+  </Section>
+  <Section Name="Constant" />
+</Sections></Interface>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <Name>AutoLogic</Name>
+      <Namespace />
+      <Number>1</Number>
+      <ProgrammingLanguage>FBD</ProgrammingLanguage>
+      <SecondaryType>ProgramCycle</SecondaryType>
+      <SetENOAutomatically>false</SetENOAutomatically>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="LiteralConstant" UId="21">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>1</ConstantValue>
+      </Constant>
+    </Access>
+    <Call UId="22">
+      <CallInfo Name="Source_select" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="23">
+          <Component Name="Source_select_H/SSR_019_DB" />
+        </Instance>
+        <Parameter Name="START" Section="Input" Type="Bool" />
+        <Parameter Name="SP" Section="Input" Type="Real" />
+        <Parameter Name="PV" Section="Input" Type="Real" />
+        <Parameter Name="COUNTER_SP" Section="Input" Type="Real" />
+        <Parameter Name="CHW_CT_SP" Section="Input" Type="Real" />
+        <Parameter Name="CT_HW_SP" Section="Input" Type="Real" />
+        <Parameter Name="HW_STEAM_SP" Section="Input" Type="Real" />
+        <Parameter Name="CT_CHW_SP" Section="Input" Type="Real" />
+        <Parameter Name="CHW_CHBr_SP" Section="Input" Type="Real" />
+        <Parameter Name="SOURCE_SEL" Section="Output" Type="Int" />
+        <Parameter Name="STATUS" Section="Output" Type="Word" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="35">
+      <IdentCon UId="21" />
+      <NameCon UId="22" Name="en" />
+    </Wire>
+    <Wire UId="36">
+      <OpenCon UId="24" />
+      <NameCon UId="22" Name="START" />
+    </Wire>
+    <Wire UId="37">
+      <OpenCon UId="25" />
+      <NameCon UId="22" Name="SP" />
+    </Wire>
+    <Wire UId="38">
+      <OpenCon UId="26" />
+      <NameCon UId="22" Name="PV" />
+    </Wire>
+    <Wire UId="39">
+      <OpenCon UId="27" />
+      <NameCon UId="22" Name="COUNTER_SP" />
+    </Wire>
+    <Wire UId="40">
+      <OpenCon UId="28" />
+      <NameCon UId="22" Name="CHW_CT_SP" />
+    </Wire>
+    <Wire UId="41">
+      <OpenCon UId="29" />
+      <NameCon UId="22" Name="CT_HW_SP" />
+    </Wire>
+    <Wire UId="42">
+      <OpenCon UId="30" />
+      <NameCon UId="22" Name="HW_STEAM_SP" />
+    </Wire>
+    <Wire UId="43">
+      <OpenCon UId="31" />
+      <NameCon UId="22" Name="CT_CHW_SP" />
+    </Wire>
+    <Wire UId="44">
+      <OpenCon UId="32" />
+      <NameCon UId="22" Name="CHW_CHBr_SP" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="22" Name="SOURCE_SEL" />
+      <OpenCon UId="33" />
+    </Wire>
+    <Wire UId="46">
+      <NameCon UId="22" Name="STATUS" />
+      <OpenCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Source select</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="LiteralConstant" UId="21">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>1</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="chbs_cmd" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="23">
+      <Symbol>
+        <Component Name="chbs_cmd" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="24">
+      <Symbol>
+        <Component Name="chbr_cmd" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="25">
+      <Symbol>
+        <Component Name="chbr_cmd" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="26">
+      <Symbol>
+        <Component Name="chbs_cmd" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="27">
+      <Symbol>
+        <Component Name="chbr_cmd" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="Utility_PID_DB" />
+        <Component Name="STEAM_SCVOUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>2.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="Source_select_H/SSR_019_DB" />
+        <Component Name="SOURCE_SEL" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="Utility_PID_DB" />
+        <Component Name="SCVOUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>2.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Utility_selection_DB" />
+        <Component Name="control" SliceAccessModifier="x15" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="Utility_selection" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="36">
+          <Component Name="Utility_selection_DB" />
+        </Instance>
+        <Parameter Name="utl_type" Section="Input" Type="Int" />
+        <Parameter Name="chbs_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="chbs_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="chws_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="chws_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="cws_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="cws_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="hws_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="hws_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="as_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="as_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="byp_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="byp_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="chbr_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="chbr_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="chwr_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="chwr_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="hwr_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="hwr_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="cwr_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="cwr_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="cond_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="cond_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="dr_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="dr_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="av_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="av_cfb" Section="Input" Type="Bool" />
+        <Parameter Name="scv_ofb" Section="Input" Type="Bool" />
+        <Parameter Name="times" Section="Input" Type="Array[0..2] of DInt" />
+        <Parameter Name="chbs_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="chws_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="cws_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="hws_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="as_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="byp_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="chbr_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="chwr_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="cwr_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="hwr_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="cond_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="dr_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="av_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="scv_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="flush_time" Section="Output" Type="DInt" />
+        <Parameter Name="vent_time" Section="Output" Type="DInt" />
+        <Parameter Name="drine_time" Section="Output" Type="DInt" />
+        <Parameter Name="CMNR_cmd" Section="Output" Type="Bool" />
+        <Parameter Name="control" Section="InOut" Type="Word" />
+        <Parameter Name="utl_bit" Section="InOut" Type="Bool" />
+      </CallInfo>
+      <Negated Name="chbs_cfb" />
+      <Negated Name="chbr_cfb" />
+    </Call>
+    <Part Name="Ge" UId="37">
+      <TemplateValue Name="SrcType" Type="Type">Real</TemplateValue>
+    </Part>
+    <Part Name="Eq" UId="38">
+      <TemplateValue Name="SrcType" Type="Type">Int</TemplateValue>
+    </Part>
+    <Part Name="A" UId="39">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+    </Part>
+    <Part Name="Ge" UId="40">
+      <TemplateValue Name="SrcType" Type="Type">Real</TemplateValue>
+    </Part>
+    <Part Name="O" UId="41">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+    </Part>
+    <Part Name="Coil" UId="42" />
+  </Parts>
+  <Wires>
+    <Wire UId="86">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="87">
+      <OpenCon UId="43" />
+      <NameCon UId="35" Name="utl_type" />
+    </Wire>
+    <Wire UId="88">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="chbs_ofb" />
+    </Wire>
+    <Wire UId="89">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="chbs_cfb" />
+    </Wire>
+    <Wire UId="90">
+      <OpenCon UId="44" />
+      <NameCon UId="35" Name="chws_ofb" />
+    </Wire>
+    <Wire UId="91">
+      <OpenCon UId="45" />
+      <NameCon UId="35" Name="chws_cfb" />
+    </Wire>
+    <Wire UId="92">
+      <OpenCon UId="46" />
+      <NameCon UId="35" Name="cws_ofb" />
+    </Wire>
+    <Wire UId="93">
+      <OpenCon UId="47" />
+      <NameCon UId="35" Name="cws_cfb" />
+    </Wire>
+    <Wire UId="94">
+      <OpenCon UId="48" />
+      <NameCon UId="35" Name="hws_ofb" />
+    </Wire>
+    <Wire UId="95">
+      <OpenCon UId="49" />
+      <NameCon UId="35" Name="hws_cfb" />
+    </Wire>
+    <Wire UId="96">
+      <OpenCon UId="50" />
+      <NameCon UId="35" Name="as_ofb" />
+    </Wire>
+    <Wire UId="97">
+      <OpenCon UId="51" />
+      <NameCon UId="35" Name="as_cfb" />
+    </Wire>
+    <Wire UId="98">
+      <OpenCon UId="52" />
+      <NameCon UId="35" Name="byp_ofb" />
+    </Wire>
+    <Wire UId="99">
+      <OpenCon UId="53" />
+      <NameCon UId="35" Name="byp_cfb" />
+    </Wire>
+    <Wire UId="100">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="chbr_ofb" />
+    </Wire>
+    <Wire UId="101">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="chbr_cfb" />
+    </Wire>
+    <Wire UId="102">
+      <OpenCon UId="54" />
+      <NameCon UId="35" Name="chwr_ofb" />
+    </Wire>
+    <Wire UId="103">
+      <OpenCon UId="55" />
+      <NameCon UId="35" Name="chwr_cfb" />
+    </Wire>
+    <Wire UId="104">
+      <OpenCon UId="56" />
+      <NameCon UId="35" Name="hwr_ofb" />
+    </Wire>
+    <Wire UId="105">
+      <OpenCon UId="57" />
+      <NameCon UId="35" Name="hwr_cfb" />
+    </Wire>
+    <Wire UId="106">
+      <OpenCon UId="58" />
+      <NameCon UId="35" Name="cwr_ofb" />
+    </Wire>
+    <Wire UId="107">
+      <OpenCon UId="59" />
+      <NameCon UId="35" Name="cwr_cfb" />
+    </Wire>
+    <Wire UId="108">
+      <OpenCon UId="60" />
+      <NameCon UId="35" Name="cond_ofb" />
+    </Wire>
+    <Wire UId="109">
+      <OpenCon UId="61" />
+      <NameCon UId="35" Name="cond_cfb" />
+    </Wire>
+    <Wire UId="110">
+      <OpenCon UId="62" />
+      <NameCon UId="35" Name="dr_ofb" />
+    </Wire>
+    <Wire UId="111">
+      <OpenCon UId="63" />
+      <NameCon UId="35" Name="dr_cfb" />
+    </Wire>
+    <Wire UId="112">
+      <OpenCon UId="64" />
+      <NameCon UId="35" Name="av_ofb" />
+    </Wire>
+    <Wire UId="113">
+      <OpenCon UId="65" />
+      <NameCon UId="35" Name="av_cfb" />
+    </Wire>
+    <Wire UId="114">
+      <OpenCon UId="66" />
+      <NameCon UId="35" Name="scv_ofb" />
+    </Wire>
+    <Wire UId="115">
+      <OpenCon UId="67" />
+      <NameCon UId="35" Name="times" />
+    </Wire>
+    <Wire UId="116">
+      <OpenCon UId="68" />
+      <NameCon UId="35" Name="control" />
+    </Wire>
+    <Wire UId="117">
+      <OpenCon UId="69" />
+      <NameCon UId="35" Name="utl_bit" />
+    </Wire>
+    <Wire UId="118">
+      <NameCon UId="35" Name="chbs_cmd" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="119">
+      <NameCon UId="35" Name="chws_cmd" />
+      <OpenCon UId="70" />
+    </Wire>
+    <Wire UId="120">
+      <NameCon UId="35" Name="cws_cmd" />
+      <OpenCon UId="71" />
+    </Wire>
+    <Wire UId="121">
+      <NameCon UId="35" Name="hws_cmd" />
+      <OpenCon UId="72" />
+    </Wire>
+    <Wire UId="122">
+      <NameCon UId="35" Name="as_cmd" />
+      <OpenCon UId="73" />
+    </Wire>
+    <Wire UId="123">
+      <NameCon UId="35" Name="byp_cmd" />
+      <OpenCon UId="74" />
+    </Wire>
+    <Wire UId="124">
+      <NameCon UId="35" Name="chbr_cmd" />
+      <IdentCon UId="27" />
+    </Wire>
+    <Wire UId="125">
+      <NameCon UId="35" Name="chwr_cmd" />
+      <OpenCon UId="75" />
+    </Wire>
+    <Wire UId="126">
+      <NameCon UId="35" Name="cwr_cmd" />
+      <OpenCon UId="76" />
+    </Wire>
+    <Wire UId="127">
+      <NameCon UId="35" Name="hwr_cmd" />
+      <OpenCon UId="77" />
+    </Wire>
+    <Wire UId="128">
+      <NameCon UId="35" Name="cond_cmd" />
+      <OpenCon UId="78" />
+    </Wire>
+    <Wire UId="129">
+      <NameCon UId="35" Name="dr_cmd" />
+      <OpenCon UId="79" />
+    </Wire>
+    <Wire UId="130">
+      <NameCon UId="35" Name="av_cmd" />
+      <OpenCon UId="80" />
+    </Wire>
+    <Wire UId="131">
+      <NameCon UId="35" Name="scv_cmd" />
+      <OpenCon UId="81" />
+    </Wire>
+    <Wire UId="132">
+      <NameCon UId="35" Name="flush_time" />
+      <OpenCon UId="82" />
+    </Wire>
+    <Wire UId="133">
+      <NameCon UId="35" Name="vent_time" />
+      <OpenCon UId="83" />
+    </Wire>
+    <Wire UId="134">
+      <NameCon UId="35" Name="drine_time" />
+      <OpenCon UId="84" />
+    </Wire>
+    <Wire UId="135">
+      <NameCon UId="35" Name="CMNR_cmd" />
+      <OpenCon UId="85" />
+    </Wire>
+    <Wire UId="136">
+      <IdentCon UId="28" />
+      <NameCon UId="37" Name="in1" />
+    </Wire>
+    <Wire UId="137">
+      <IdentCon UId="29" />
+      <NameCon UId="37" Name="in2" />
+    </Wire>
+    <Wire UId="138">
+      <NameCon UId="37" Name="out" />
+      <NameCon UId="39" Name="in1" />
+    </Wire>
+    <Wire UId="139">
+      <IdentCon UId="30" />
+      <NameCon UId="38" Name="in1" />
+    </Wire>
+    <Wire UId="140">
+      <IdentCon UId="31" />
+      <NameCon UId="38" Name="in2" />
+    </Wire>
+    <Wire UId="141">
+      <NameCon UId="38" Name="out" />
+      <NameCon UId="39" Name="in2" />
+    </Wire>
+    <Wire UId="142">
+      <NameCon UId="39" Name="out" />
+      <NameCon UId="41" Name="in1" />
+    </Wire>
+    <Wire UId="143">
+      <IdentCon UId="32" />
+      <NameCon UId="40" Name="in1" />
+    </Wire>
+    <Wire UId="144">
+      <IdentCon UId="33" />
+      <NameCon UId="40" Name="in2" />
+    </Wire>
+    <Wire UId="145">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in2" />
+    </Wire>
+    <Wire UId="146">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="in" />
+    </Wire>
+    <Wire UId="147">
+      <IdentCon UId="34" />
+      <NameCon UId="42" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Utility selection</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="D" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="E" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text>"Main Program Sweep (Cycle)"</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.OB>
+</Document>

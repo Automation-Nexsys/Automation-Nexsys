@@ -1,0 +1,46 @@
+﻿FUNCTION "Word_to_Bit" : Void
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      "word" : Word;
+   END_VAR
+
+   VAR_OUTPUT 
+      Bit0 : Bool;
+      Bit1 : Bool;
+      Bit2 : Bool;
+      Bit3 : Bool;
+      Bit4 : Bool;
+      Bit5 : Bool;
+      Bit6 : Bool;
+      Bit7 : Bool;
+      Bit8 : Bool;
+      Bit9 : Bool;
+      Bit10 : Bool;
+      Bit11 : Bool;
+      Bit12 : Bool;
+      Bit13 : Bool;
+      Bit14 : Bool;
+      Bit15 : Bool;
+   END_VAR
+
+
+BEGIN
+	#Bit0 := #"word".%X0;
+	#Bit1 := #"word".%X1;
+	#Bit2 := #"word".%X2;
+	#Bit3 := #"word".%X3;
+	#Bit4 := #"word".%X4;
+	#Bit5 := #"word".%X5;
+	#Bit6 := #"word".%X6;
+	#Bit7 := #"word".%X7;
+	#Bit8 := #"word".%X8;
+	#Bit9 := #"word".%X9;
+	#Bit10 := #"word".%X10;
+	#Bit11 := #"word".%X11;
+	#Bit12 := #"word".%X12;
+	#Bit13 := #"word".%X13;
+	#Bit14 := #"word".%X14;
+	#Bit15 := #"word".%X15;
+END_FUNCTION
+
