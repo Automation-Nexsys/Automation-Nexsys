@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="R1" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R2" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R3" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R4" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R5" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R6" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R7" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R8" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R9" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R10" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R11" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R12" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R13" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R14" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R15" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R16" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R17" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="R18" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="HOT_SKID_CP01" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="HOT_SKID_CP02" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="HOT_SKID_CP03" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="COLD_SKID_CP01" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="COLD_SKID_CP02" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="COLD_SKID_CP03" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="CHILLED_SKID_CP01" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="CHILLED_SKID_CP02" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="CHILLED_SKID_CP03" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="ULTRA_CHILLED_SKID_CP01" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="ULTRA_CHILLED_SKID_CP02" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="HOT_SKID_CV" Datatype="&quot;PID&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="None">
+          <Member Name="P" Datatype="Real">
+            <StartValue>0.5</StartValue>
+          </Member>
+          <Member Name="I" Datatype="Real">
+            <StartValue>1.5</StartValue>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>PID_PARAMETERS</Name>
+      <Namespace />
+      <Number>88</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

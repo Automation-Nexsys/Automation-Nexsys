@@ -275,8 +275,13 @@
       <SW.Tags.PlcTag ID="2B" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
+<<<<<<< Updated upstream
           <LogicalAddress>%Q0.1</LogicalAddress>
           <Name>AG_CMD</Name>
+=======
+          <LogicalAddress>%M20.0</LogicalAddress>
+          <Name>Tag_1</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="2C" CompositionName="Comment">
@@ -294,8 +299,13 @@
       <SW.Tags.PlcTag ID="2E" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
+<<<<<<< Updated upstream
           <LogicalAddress>%I0.6</LogicalAddress>
           <Name>HOOTER ACKNOWLEDMENT</Name>
+=======
+          <LogicalAddress>%M2.0</LogicalAddress>
+          <Name>ack</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="2F" CompositionName="Comment">
@@ -313,8 +323,13 @@
       <SW.Tags.PlcTag ID="31" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
+<<<<<<< Updated upstream
           <LogicalAddress>%Q0.0</LogicalAddress>
           <Name>HOOTER DO</Name>
+=======
+          <LogicalAddress>%M100.0</LogicalAddress>
+          <Name>Tag_2</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="32" CompositionName="Comment">
@@ -331,9 +346,15 @@
       </SW.Tags.PlcTag>
       <SW.Tags.PlcTag ID="34" CompositionName="Tags">
         <AttributeList>
+<<<<<<< Updated upstream
           <DataTypeName>Bool</DataTypeName>
           <LogicalAddress>%I0.2</LogicalAddress>
           <Name>XV07 OFB</Name>
+=======
+          <DataTypeName>Int</DataTypeName>
+          <LogicalAddress>%MW100</LogicalAddress>
+          <Name>Tag_3</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="35" CompositionName="Comment">
@@ -350,9 +371,15 @@
       </SW.Tags.PlcTag>
       <SW.Tags.PlcTag ID="37" CompositionName="Tags">
         <AttributeList>
+<<<<<<< Updated upstream
           <DataTypeName>Bool</DataTypeName>
           <LogicalAddress>%I0.3</LogicalAddress>
           <Name>XV07 CFB</Name>
+=======
+          <DataTypeName>Real</DataTypeName>
+          <LogicalAddress>%MD200</LogicalAddress>
+          <Name>Tag_4</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="38" CompositionName="Comment">
@@ -369,9 +396,15 @@
       </SW.Tags.PlcTag>
       <SW.Tags.PlcTag ID="3A" CompositionName="Tags">
         <AttributeList>
+<<<<<<< Updated upstream
           <DataTypeName>Bool</DataTypeName>
           <LogicalAddress>%I0.4</LogicalAddress>
           <Name>XV08 OFB</Name>
+=======
+          <DataTypeName>Real</DataTypeName>
+          <LogicalAddress>%MD102</LogicalAddress>
+          <Name>Tag_5</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="3B" CompositionName="Comment">
@@ -388,9 +421,15 @@
       </SW.Tags.PlcTag>
       <SW.Tags.PlcTag ID="3D" CompositionName="Tags">
         <AttributeList>
+<<<<<<< Updated upstream
           <DataTypeName>Bool</DataTypeName>
           <LogicalAddress>%I0.5</LogicalAddress>
           <Name>XV08 CFB</Name>
+=======
+          <DataTypeName>Int</DataTypeName>
+          <LogicalAddress>%MW104</LogicalAddress>
+          <Name>Tag_6</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="3E" CompositionName="Comment">
@@ -408,8 +447,13 @@
       <SW.Tags.PlcTag ID="40" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
+<<<<<<< Updated upstream
           <LogicalAddress>%Q0.2</LogicalAddress>
           <Name>XV07_Open</Name>
+=======
+          <LogicalAddress>%M10.0</LogicalAddress>
+          <Name>COMMUNICATION</Name>
+>>>>>>> Stashed changes
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="41" CompositionName="Comment">
@@ -424,6 +468,7 @@
           </MultilingualText>
         </ObjectList>
       </SW.Tags.PlcTag>
+<<<<<<< Updated upstream
       <SW.Tags.PlcTag ID="43" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
@@ -500,6 +545,8 @@
           </MultilingualText>
         </ObjectList>
       </SW.Tags.PlcTag>
+=======
+>>>>>>> Stashed changes
     </ObjectList>
   </SW.Tags.PlcTagTable>
 </Document>

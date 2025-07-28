@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="RAW_MIN" Datatype="Array[1..20] of Int" />
+    <Member Name="RAW_MAX" Datatype="Array[1..20] of Int">
+      <Subelement Path="1">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="2">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="3">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="4">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="5">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="6">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="7">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="8">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="9">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="10">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="11">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="12">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="13">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="14">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="15">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="16">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="17">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="18">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="19">
+        <StartValue>27648</StartValue>
+      </Subelement>
+      <Subelement Path="20">
+        <StartValue>27648</StartValue>
+      </Subelement>
+    </Member>
+    <Member Name="SCALE_MIN" Datatype="Array[1..20] of Real" />
+    <Member Name="SCALE_MAX" Datatype="Array[1..20] of Real">
+      <Subelement Path="1">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="2">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="3">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="4">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="5">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="6">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="7">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="8">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="9">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="10">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="11">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="12">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="13">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="14">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="15">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="16">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="17">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="18">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="19">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+      <Subelement Path="20">
+        <StartValue>100.0</StartValue>
+      </Subelement>
+    </Member>
+    <Member Name="INPUT" Datatype="Array[1..20] of Int" />
+    <Member Name="FAULT" Datatype="Array[1..20] of Bool" />
+    <Member Name="SCALE_OUT" Datatype="Array[1..20] of Real" />
+    <Member Name="STATUS" Datatype="Array[1..20] of Int" />
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>RPM</Name>
+      <Namespace />
+      <Number>103</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

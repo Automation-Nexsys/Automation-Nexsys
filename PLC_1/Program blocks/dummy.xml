@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="cheking_sp" Datatype="Real" />
+    <Member Name="check_2" Datatype="Bool" />
+    <Member Name="check3" Datatype="Bool" />
+    <Member Name="R1" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R2" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R3" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R4" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R5" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R6" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R7" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R8" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R9" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R10" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R11" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R12" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R13" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R14" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R15" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R16" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R17" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="R18" Datatype="Struct">
+      <Member Name="Intl_1" Datatype="Bool" />
+      <Member Name="Intl_2" Datatype="Bool" />
+      <Member Name="Intl_3" Datatype="Bool" />
+      <Member Name="Intl_4" Datatype="Bool" />
+    </Member>
+    <Member Name="SEMI_AUTO_SEL" Datatype="Struct">
+      <Member Name="R1" Datatype="Int" />
+      <Member Name="R2" Datatype="Int" />
+      <Member Name="R3" Datatype="Int" />
+      <Member Name="R4" Datatype="Int" />
+      <Member Name="R5" Datatype="Int" />
+      <Member Name="R6" Datatype="Int" />
+      <Member Name="R7" Datatype="Int" />
+      <Member Name="R8" Datatype="Int" />
+      <Member Name="R9" Datatype="Int" />
+      <Member Name="R10" Datatype="Int" />
+      <Member Name="R11" Datatype="Int" />
+      <Member Name="R12" Datatype="Int" />
+      <Member Name="R13" Datatype="Int" />
+      <Member Name="R14" Datatype="Int" />
+      <Member Name="R15" Datatype="Int" />
+      <Member Name="R16" Datatype="Int" />
+      <Member Name="R17" Datatype="Int" />
+      <Member Name="R18" Datatype="Int" />
+    </Member>
+    <Member Name="AG_STATUS" Datatype="Struct">
+      <Member Name="R1" Datatype="Bool" />
+      <Member Name="R2" Datatype="Bool" />
+      <Member Name="R3" Datatype="Bool" />
+      <Member Name="R4" Datatype="Bool" />
+      <Member Name="R5" Datatype="Bool" />
+      <Member Name="R6" Datatype="Bool" />
+      <Member Name="R7" Datatype="Bool" />
+      <Member Name="R8" Datatype="Bool" />
+      <Member Name="R9" Datatype="Bool" />
+      <Member Name="R10" Datatype="Bool" />
+      <Member Name="R11" Datatype="Bool" />
+      <Member Name="R12" Datatype="Bool" />
+      <Member Name="R13" Datatype="Bool" />
+      <Member Name="R14" Datatype="Bool" />
+      <Member Name="R15" Datatype="Bool" />
+      <Member Name="R16" Datatype="Bool" />
+      <Member Name="R17" Datatype="Bool" />
+      <Member Name="R18" Datatype="Bool" />
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>dummy</Name>
+      <Namespace />
+      <Number>102</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>
