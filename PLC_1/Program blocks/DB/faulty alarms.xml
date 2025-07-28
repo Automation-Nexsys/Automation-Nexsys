@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <DBAccessibleFromOPCUA>false</DBAccessibleFromOPCUA>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="faulty_alarms" Datatype="Struct">
+      <Member Name="TT01_HIGH" Datatype="Bool" />
+      <Member Name="TT02_HIGH" Datatype="Bool" />
+      <Member Name="APT01_HIGH" Datatype="Bool" />
+      <Member Name="GPT01_HIGH" Datatype="Bool" />
+      <Member Name="GPT02_HIGH" Datatype="Bool" />
+      <Member Name="GPT03_HIGH" Datatype="Bool" />
+      <Member Name="GPT04_HIGH" Datatype="Bool" />
+      <Member Name="O2_HIGH" Datatype="Bool" />
+      <Member Name="LEL01_HIGH" Datatype="Bool" />
+      <Member Name="LEL02_HIGH" Datatype="Bool" />
+      <Member Name="PS01_HIGH" Datatype="Bool" />
+      <Member Name="TT01_LOW" Datatype="Bool" />
+      <Member Name="TT02_LOW" Datatype="Bool" />
+      <Member Name="APT01_LOW" Datatype="Bool" />
+      <Member Name="GPT01_LOW" Datatype="Bool" />
+      <Member Name="GPT02_LOW" Datatype="Bool" />
+      <Member Name="GPT03_LOW" Datatype="Bool" />
+      <Member Name="GPT04_LOW" Datatype="Bool" />
+      <Member Name="O2_LOW" Datatype="Bool" />
+      <Member Name="LEL01_LOW" Datatype="Bool" />
+      <Member Name="LEL02_LOW" Datatype="Bool" />
+      <Member Name="PS01_LOW" Datatype="Bool" />
+      <Member Name="TT01_FAULTY" Datatype="Bool" />
+      <Member Name="TT02_FAULTY" Datatype="Bool" />
+      <Member Name="APT01_FAULTY" Datatype="Bool" />
+      <Member Name="GPT01_FAULTY" Datatype="Bool" />
+      <Member Name="GPT02_FAULTY" Datatype="Bool" />
+      <Member Name="GPT03_FAULTY" Datatype="Bool" />
+      <Member Name="GPT04_FAULTY" Datatype="Bool" />
+      <Member Name="O2_FAULTY" Datatype="Bool" />
+      <Member Name="LEL01_FAULTY" Datatype="Bool" />
+      <Member Name="LEL02_FAULTY" Datatype="Bool" />
+      <Member Name="PS01_FAULTY" Datatype="Bool" />
+      <Member Name="RLT_HIGH" Datatype="Bool" />
+      <Member Name="RLT_LOW" Datatype="Bool" />
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>faulty alarms</Name>
+      <Namespace />
+      <Number>20</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>
