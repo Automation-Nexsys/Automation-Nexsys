@@ -168,15 +168,21 @@
           </Member>
           <Member Name="InvertControl" Datatype="Bool">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <StartValue>TRUE</StartValue>
           </Member>
           <Member Name="InputUpperLimit" Datatype="Real">
             <StartValue>100.0</StartValue>
 =======
+=======
+>>>>>>> Stashed changes
             <StartValue>FALSE</StartValue>
           </Member>
           <Member Name="InputUpperLimit" Datatype="Real">
             <StartValue>120.0</StartValue>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Member>
           <Member Name="InputLowerLimit" Datatype="Real">
@@ -217,7 +223,11 @@
                 </Member>
                 <Member Name="UpperPointOut" Datatype="Real">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <StartValue>110.0</StartValue>
+=======
+                  <StartValue>100.0</StartValue>
+>>>>>>> Stashed changes
 =======
                   <StartValue>100.0</StartValue>
 >>>>>>> Stashed changes
@@ -245,7 +255,11 @@
           </Member>
           <Member Name="Value" Datatype="Real">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <StartValue>0.1000016</StartValue>
+=======
+            <StartValue>0.1000067</StartValue>
+>>>>>>> Stashed changes
 =======
             <StartValue>0.1000067</StartValue>
 >>>>>>> Stashed changes
@@ -294,7 +308,11 @@
               <Section Name="None">
                 <Member Name="TuneRule" Datatype="Int">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <StartValue>1</StartValue>
+=======
+                  <StartValue>0</StartValue>
+>>>>>>> Stashed changes
 =======
                   <StartValue>0</StartValue>
 >>>>>>> Stashed changes
@@ -307,7 +325,11 @@
               <Section Name="None">
                 <Member Name="TuneRule" Datatype="Int">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <StartValue>4</StartValue>
+=======
+                  <StartValue>0</StartValue>
+>>>>>>> Stashed changes
 =======
                   <StartValue>0</StartValue>
 >>>>>>> Stashed changes
@@ -334,6 +356,7 @@
               <Section Name="None">
                 <Member Name="Gain" Datatype="Real">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <StartValue>2.5</StartValue>
                 </Member>
                 <Member Name="Ti" Datatype="Real">
@@ -342,6 +365,8 @@
                 <Member Name="Td" Datatype="Real">
                   <StartValue>0.0</StartValue>
 =======
+=======
+>>>>>>> Stashed changes
                   <StartValue>0.5</StartValue>
                 </Member>
                 <Member Name="Ti" Datatype="Real">
@@ -349,6 +374,9 @@
                 </Member>
                 <Member Name="Td" Datatype="Real">
                   <StartValue>0.5</StartValue>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 </Member>
                 <Member Name="TdFiltRatio" Datatype="Real">
@@ -374,9 +402,15 @@
       <Name>PID_Compact_1</Name>
       <Namespace />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <Number>4</Number>
       <OfSystemLibElement>PID_Compact</OfSystemLibElement>
       <OfSystemLibVersion>2.3</OfSystemLibVersion>
+=======
+      <Number>15</Number>
+      <OfSystemLibElement>PID_Compact</OfSystemLibElement>
+      <OfSystemLibVersion>2.4</OfSystemLibVersion>
+>>>>>>> Stashed changes
 =======
       <Number>15</Number>
       <OfSystemLibElement>PID_Compact</OfSystemLibElement>

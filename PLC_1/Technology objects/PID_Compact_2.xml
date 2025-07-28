@@ -75,9 +75,13 @@
   </Section>
   <Section Name="InOut">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Member Name="Mode" Datatype="Int" Remanence="Retain">
       <StartValue>3</StartValue>
     </Member>
+=======
+    <Member Name="Mode" Datatype="Int" Remanence="Retain" />
+>>>>>>> Stashed changes
 =======
     <Member Name="Mode" Datatype="Int" Remanence="Retain" />
 >>>>>>> Stashed changes
@@ -95,7 +99,10 @@
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <StartValue>4</StartValue>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </Member>
@@ -105,7 +112,10 @@
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <StartValue>TRUE</StartValue>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </Member>
@@ -115,7 +125,10 @@
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <StartValue>TRUE</StartValue>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </Member>
@@ -136,7 +149,10 @@
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <StartValue>TRUE</StartValue>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </Member>
@@ -165,7 +181,10 @@
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <StartValue>10.0</StartValue>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </Member>
@@ -174,7 +193,10 @@
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <StartValue>0.0</StartValue>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </Member>
@@ -187,6 +209,7 @@
           <Member Name="InputPerOn" Datatype="Bool">
             <StartValue>FALSE</StartValue>
           </Member>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
           <Member Name="InvertControl" Datatype="Bool">
             <StartValue>FALSE</StartValue>
@@ -241,6 +264,8 @@
           </Member>
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         </Section>
       </Sections>
     </Member>
@@ -248,6 +273,7 @@
       <AttributeList>
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <Sections>
         <Section Name="None">
@@ -264,11 +290,14 @@
       </Sections>
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </Member>
     <Member Name="CtrlParamsBackUp" Datatype="PID_CompactControlParams" Version="1.2">
       <AttributeList>
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <Sections>
         <Section Name="None">
@@ -297,11 +326,14 @@
       </Sections>
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </Member>
     <Member Name="PIDSelfTune" Datatype="PID_CompactSelfTune" Version="1.2">
       <AttributeList>
         <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
       </AttributeList>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <Sections>
         <Section Name="None">
@@ -327,6 +359,8 @@
       </Sections>
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </Member>
     <Member Name="PIDCtrl" Datatype="PID_CompactControl" Version="1.2">
       <AttributeList>
@@ -343,6 +377,7 @@
             <Sections>
               <Section Name="None">
                 <Member Name="Gain" Datatype="Real">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                   <StartValue>1.0</StartValue>
                 </Member>
@@ -364,6 +399,8 @@
                 <Member Name="Cycle" Datatype="Real">
                   <StartValue>1.0</StartValue>
 =======
+=======
+>>>>>>> Stashed changes
                   <StartValue>0.9291019</StartValue>
                 </Member>
                 <Member Name="Ti" Datatype="Real">
@@ -383,6 +420,9 @@
                 </Member>
                 <Member Name="Cycle" Datatype="Real">
                   <StartValue>0.999458</StartValue>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 </Member>
               </Section>
@@ -396,9 +436,15 @@
       <Name>PID_Compact_2</Name>
       <Namespace />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <Number>26</Number>
       <OfSystemLibElement>PID_Compact</OfSystemLibElement>
       <OfSystemLibVersion>2.3</OfSystemLibVersion>
+=======
+      <Number>24</Number>
+      <OfSystemLibElement>PID_Compact</OfSystemLibElement>
+      <OfSystemLibVersion>2.4</OfSystemLibVersion>
+>>>>>>> Stashed changes
 =======
       <Number>24</Number>
       <OfSystemLibElement>PID_Compact</OfSystemLibElement>
