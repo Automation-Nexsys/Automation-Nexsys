@@ -42,106 +42,6 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
-<<<<<<< Updated upstream
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Clock_1Hz" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="22">
-      <Constant>
-        <ConstantValue>W#16#100</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="23">
-      <Constant>
-        <ConstantType>Remote</ConstantType>
-        <ConstantValue>P#DB1.DBX100.0 BYTE 3</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="24">
-      <Constant>
-        <ConstantType>Remote</ConstantType>
-        <ConstantValue>P#DB1.DBX400.0 INT 16</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="25">
-      <Constant>
-        <ConstantType>Any</ConstantType>
-        <ConstantValue>P#DB2.DBX0.0 BYTE 3</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="26">
-      <Constant>
-        <ConstantType>Any</ConstantType>
-        <ConstantValue>P#DB2.DBX6.0 INT 16</ConstantValue>
-      </Constant>
-    </Access>
-    <Part Name="GET" Version="1.3" UId="27">
-      <Instance Scope="GlobalVariable" UId="28">
-        <Component Name="GET_DB_1" />
-      </Instance>
-      <TemplateValue Name="remote_type" Type="Type">Remote</TemplateValue>
-      <TemplateValue Name="local_type" Type="Type">Variant</TemplateValue>
-    </Part>
-  </Parts>
-  <Wires>
-    <Wire UId="36">
-      <Powerrail />
-      <NameCon UId="27" Name="en" />
-    </Wire>
-    <Wire UId="37">
-      <IdentCon UId="21" />
-      <NameCon UId="27" Name="REQ" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="22" />
-      <NameCon UId="27" Name="ID" />
-    </Wire>
-    <Wire UId="39">
-      <IdentCon UId="23" />
-      <NameCon UId="27" Name="ADDR_1" />
-    </Wire>
-    <Wire UId="40">
-      <IdentCon UId="24" />
-      <NameCon UId="27" Name="ADDR_2" />
-    </Wire>
-    <Wire UId="41">
-      <OpenCon UId="29" />
-      <NameCon UId="27" Name="ADDR_3" />
-    </Wire>
-    <Wire UId="42">
-      <OpenCon UId="30" />
-      <NameCon UId="27" Name="ADDR_4" />
-    </Wire>
-    <Wire UId="43">
-      <IdentCon UId="25" />
-      <NameCon UId="27" Name="RD_1" />
-    </Wire>
-    <Wire UId="44">
-      <IdentCon UId="26" />
-      <NameCon UId="27" Name="RD_2" />
-    </Wire>
-    <Wire UId="45">
-      <OpenCon UId="31" />
-      <NameCon UId="27" Name="RD_3" />
-    </Wire>
-    <Wire UId="46">
-      <OpenCon UId="32" />
-      <NameCon UId="27" Name="RD_4" />
-    </Wire>
-    <Wire UId="47">
-      <NameCon UId="27" Name="NDR" />
-      <OpenCon UId="33" />
-    </Wire>
-    <Wire UId="48">
-      <NameCon UId="27" Name="ERROR" />
-      <OpenCon UId="34" />
-    </Wire>
-    <Wire UId="49">
-      <NameCon UId="27" Name="STATUS" />
-      <OpenCon UId="35" />
-=======
     <Call UId="21">
       <CallInfo Name="IO_MAPPING" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
@@ -154,7 +54,6 @@
     <Wire UId="23">
       <Powerrail />
       <NameCon UId="21" Name="en" />
->>>>>>> Stashed changes
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
@@ -176,11 +75,7 @@
               <MultilingualTextItem ID="7" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text>DI AI</Text>
-=======
                   <Text>IO MAPPING</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -191,106 +86,6 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
-<<<<<<< Updated upstream
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Clock_1Hz" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="22">
-      <Constant>
-        <ConstantValue>W#16#100</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="23">
-      <Constant>
-        <ConstantType>Remote</ConstantType>
-        <ConstantValue>P#DB1.DBX500.0 BYTE 1</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="24">
-      <Constant>
-        <ConstantType>Remote</ConstantType>
-        <ConstantValue>P#DB1.DBX600.0 WORD 2</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="25">
-      <Constant>
-        <ConstantType>Any</ConstantType>
-        <ConstantValue>P#DB2.DBX4.0 BYTE 1</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="LiteralConstant" UId="26">
-      <Constant>
-        <ConstantType>Any</ConstantType>
-        <ConstantValue>P#DB2.DBX40.0 WORD 2</ConstantValue>
-      </Constant>
-    </Access>
-    <Part Name="PUT" Version="1.3" UId="27">
-      <Instance Scope="GlobalVariable" UId="28">
-        <Component Name="PUT_DB" />
-      </Instance>
-      <TemplateValue Name="remote_type" Type="Type">Remote</TemplateValue>
-      <TemplateValue Name="local_type" Type="Type">Variant</TemplateValue>
-    </Part>
-  </Parts>
-  <Wires>
-    <Wire UId="36">
-      <Powerrail />
-      <NameCon UId="27" Name="en" />
-    </Wire>
-    <Wire UId="37">
-      <IdentCon UId="21" />
-      <NameCon UId="27" Name="REQ" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="22" />
-      <NameCon UId="27" Name="ID" />
-    </Wire>
-    <Wire UId="39">
-      <IdentCon UId="23" />
-      <NameCon UId="27" Name="ADDR_1" />
-    </Wire>
-    <Wire UId="40">
-      <IdentCon UId="24" />
-      <NameCon UId="27" Name="ADDR_2" />
-    </Wire>
-    <Wire UId="41">
-      <OpenCon UId="29" />
-      <NameCon UId="27" Name="ADDR_3" />
-    </Wire>
-    <Wire UId="42">
-      <OpenCon UId="30" />
-      <NameCon UId="27" Name="ADDR_4" />
-    </Wire>
-    <Wire UId="43">
-      <IdentCon UId="25" />
-      <NameCon UId="27" Name="SD_1" />
-    </Wire>
-    <Wire UId="44">
-      <IdentCon UId="26" />
-      <NameCon UId="27" Name="SD_2" />
-    </Wire>
-    <Wire UId="45">
-      <OpenCon UId="31" />
-      <NameCon UId="27" Name="SD_3" />
-    </Wire>
-    <Wire UId="46">
-      <OpenCon UId="32" />
-      <NameCon UId="27" Name="SD_4" />
-    </Wire>
-    <Wire UId="47">
-      <NameCon UId="27" Name="DONE" />
-      <OpenCon UId="33" />
-    </Wire>
-    <Wire UId="48">
-      <NameCon UId="27" Name="ERROR" />
-      <OpenCon UId="34" />
-    </Wire>
-    <Wire UId="49">
-      <NameCon UId="27" Name="STATUS" />
-      <OpenCon UId="35" />
-=======
     <Call UId="21">
       <CallInfo Name="ALL_AI" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
@@ -303,7 +98,6 @@
     <Wire UId="23">
       <Powerrail />
       <NameCon UId="21" Name="en" />
->>>>>>> Stashed changes
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
@@ -325,11 +119,7 @@
               <MultilingualTextItem ID="C" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text>DO AO</Text>
-=======
                   <Text>ALL AI</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -341,15 +131,9 @@
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
     <Call UId="21">
-<<<<<<< Updated upstream
-      <CallInfo Name="ALL_VALVES" BlockType="FB">
-        <Instance Scope="GlobalVariable" UId="22">
-          <Component Name="ALL_VALVES_DB" />
-=======
       <CallInfo Name="ALL_PUMPS" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
           <Component Name="ALL_PUMPS_DB" />
->>>>>>> Stashed changes
         </Instance>
       </CallInfo>
     </Call>
@@ -379,11 +163,7 @@
               <MultilingualTextItem ID="11" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>ALL PUMPS</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -395,15 +175,9 @@
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
     <Call UId="21">
-<<<<<<< Updated upstream
-      <CallInfo Name="ALL HOOTER" BlockType="FB">
-        <Instance Scope="GlobalVariable" UId="22">
-          <Component Name="ALL HOOTER_DB" />
-=======
       <CallInfo Name="ALL_VALVES" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
           <Component Name="ALL_VALVES_DB" />
->>>>>>> Stashed changes
         </Instance>
       </CallInfo>
     </Call>
@@ -433,11 +207,7 @@
               <MultilingualTextItem ID="16" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>ALL VALVES</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -449,16 +219,6 @@
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
     <Call UId="21">
-<<<<<<< Updated upstream
-      <CallInfo Name="AUTOLOGIC" BlockType="FC" />
-    </Call>
-  </Parts>
-  <Wires>
-    <Wire UId="22">
-      <Powerrail />
-      <NameCon UId="21" Name="en" />
-    </Wire>
-=======
       <CallInfo Name="Block_1" BlockType="FC" />
     </Call>
     <Call UId="22">
@@ -488,7 +248,6 @@
       <NameCon UId="23" Name="eno" />
       <NameCon UId="24" Name="en" />
     </Wire>
->>>>>>> Stashed changes
   </Wires>
 </FlgNet></NetworkSource>
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
@@ -509,11 +268,7 @@
               <MultilingualTextItem ID="1B" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>MODBUS VFD</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -524,16 +279,6 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
-<<<<<<< Updated upstream
-    <Call UId="21">
-      <CallInfo Name="Alarms" BlockType="FC" />
-    </Call>
-  </Parts>
-  <Wires>
-    <Wire UId="22">
-      <Powerrail />
-      <NameCon UId="21" Name="en" />
-=======
     <Access Scope="GlobalVariable" UId="21">
       <Symbol>
         <Component Name="AlwaysTRUE" />
@@ -563,7 +308,6 @@
     <Wire UId="28">
       <IdentCon UId="22" />
       <NameCon UId="24" Name="operand" />
->>>>>>> Stashed changes
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
@@ -585,11 +329,7 @@
               <MultilingualTextItem ID="20" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>COMMUNICATION</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -601,15 +341,9 @@
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
     <Call UId="21">
-<<<<<<< Updated upstream
-      <CallInfo Name="A/M_RESET" BlockType="FB">
-        <Instance Scope="GlobalVariable" UId="22">
-          <Component Name="A/M_RESET_DB" />
-=======
       <CallInfo Name="SKIDS" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
           <Component Name="SKIDS_DB" />
->>>>>>> Stashed changes
         </Instance>
       </CallInfo>
     </Call>
@@ -639,11 +373,7 @@
               <MultilingualTextItem ID="25" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>SKIDS</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -655,15 +385,9 @@
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
     <Call UId="21">
-<<<<<<< Updated upstream
-      <CallInfo Name="ALL_AI" BlockType="FB">
-        <Instance Scope="GlobalVariable" UId="22">
-          <Component Name="ALL_AI_DB_1" />
-=======
       <CallInfo Name="RUA_R1" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
           <Component Name="RUA_R1_DB" />
->>>>>>> Stashed changes
         </Instance>
       </CallInfo>
     </Call>
@@ -693,11 +417,7 @@
               <MultilingualTextItem ID="2A" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>RUA_R1</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -709,15 +429,9 @@
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
     <Call UId="21">
-<<<<<<< Updated upstream
-      <CallInfo Name="MOTOR" BlockType="FB">
-        <Instance Scope="GlobalVariable" UId="22">
-          <Component Name="MOTOR_DB" />
-=======
       <CallInfo Name="RUA_R2" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
           <Component Name="RUA_R2_DB" />
->>>>>>> Stashed changes
         </Instance>
       </CallInfo>
     </Call>
@@ -747,11 +461,7 @@
               <MultilingualTextItem ID="2F" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>RUA_R2</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -762,133 +472,6 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
-<<<<<<< Updated upstream
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="XV07 OFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="DI/DO" />
-        <Component Name="DIGITAL INPUTS" />
-        <Component Name="XV07 OFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="XV07 CFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="DI/DO" />
-        <Component Name="DIGITAL INPUTS" />
-        <Component Name="XV07 CFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="25">
-      <Symbol>
-        <Component Name="XV08 OFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="26">
-      <Symbol>
-        <Component Name="DI/DO" />
-        <Component Name="DIGITAL INPUTS" />
-        <Component Name="XV08 OFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="27">
-      <Symbol>
-        <Component Name="XV08 CFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="28">
-      <Symbol>
-        <Component Name="DI/DO" />
-        <Component Name="DIGITAL INPUTS" />
-        <Component Name="XV08 CFB" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="29">
-      <Symbol>
-        <Component Name="DI/DO" />
-        <Component Name="DIGITAL INPUTS" />
-        <Component Name="XV08 CFB" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="30" />
-    <Part Name="Coil" UId="31" />
-    <Part Name="Contact" UId="32" />
-    <Part Name="Coil" UId="33" />
-    <Part Name="Contact" UId="34" />
-    <Part Name="Coil" UId="35" />
-    <Part Name="Contact" UId="36" />
-    <Part Name="Coil" UId="37" />
-    <Part Name="Coil" UId="38" />
-  </Parts>
-  <Wires>
-    <Wire UId="39">
-      <Powerrail />
-      <NameCon UId="30" Name="in" />
-      <NameCon UId="32" Name="in" />
-      <NameCon UId="34" Name="in" />
-      <NameCon UId="36" Name="in" />
-    </Wire>
-    <Wire UId="40">
-      <IdentCon UId="21" />
-      <NameCon UId="30" Name="operand" />
-    </Wire>
-    <Wire UId="41">
-      <NameCon UId="30" Name="out" />
-      <NameCon UId="31" Name="in" />
-    </Wire>
-    <Wire UId="42">
-      <IdentCon UId="22" />
-      <NameCon UId="31" Name="operand" />
-    </Wire>
-    <Wire UId="43">
-      <IdentCon UId="23" />
-      <NameCon UId="32" Name="operand" />
-    </Wire>
-    <Wire UId="44">
-      <NameCon UId="32" Name="out" />
-      <NameCon UId="33" Name="in" />
-    </Wire>
-    <Wire UId="45">
-      <IdentCon UId="24" />
-      <NameCon UId="33" Name="operand" />
-    </Wire>
-    <Wire UId="46">
-      <IdentCon UId="25" />
-      <NameCon UId="34" Name="operand" />
-    </Wire>
-    <Wire UId="47">
-      <NameCon UId="34" Name="out" />
-      <NameCon UId="35" Name="in" />
-    </Wire>
-    <Wire UId="48">
-      <IdentCon UId="26" />
-      <NameCon UId="35" Name="operand" />
-    </Wire>
-    <Wire UId="49">
-      <IdentCon UId="27" />
-      <NameCon UId="36" Name="operand" />
-    </Wire>
-    <Wire UId="50">
-      <NameCon UId="36" Name="out" />
-      <NameCon UId="37" Name="in" />
-      <NameCon UId="38" Name="in" />
-    </Wire>
-    <Wire UId="51">
-      <IdentCon UId="28" />
-      <NameCon UId="37" Name="operand" />
-    </Wire>
-    <Wire UId="52">
-      <IdentCon UId="29" />
-      <NameCon UId="38" Name="operand" />
-=======
     <Call UId="21">
       <CallInfo Name="RUA_R3" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
@@ -901,7 +484,6 @@
     <Wire UId="23">
       <Powerrail />
       <NameCon UId="21" Name="en" />
->>>>>>> Stashed changes
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
@@ -923,11 +505,7 @@
               <MultilingualTextItem ID="34" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text>ON/OFF Valve </Text>
-=======
                   <Text>RUA_R3</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -938,38 +516,6 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
-<<<<<<< Updated upstream
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="HOOTER ACKNOWLEDMENT" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="DI/DO" />
-        <Component Name="Hooter_Ack" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="23" />
-    <Part Name="Coil" UId="24" />
-  </Parts>
-  <Wires>
-    <Wire UId="25">
-      <Powerrail />
-      <NameCon UId="23" Name="in" />
-    </Wire>
-    <Wire UId="26">
-      <IdentCon UId="21" />
-      <NameCon UId="23" Name="operand" />
-    </Wire>
-    <Wire UId="27">
-      <NameCon UId="23" Name="out" />
-      <NameCon UId="24" Name="in" />
-    </Wire>
-    <Wire UId="28">
-      <IdentCon UId="22" />
-      <NameCon UId="24" Name="operand" />
-=======
     <Call UId="21">
       <CallInfo Name="RUA_R4" BlockType="FB">
         <Instance Scope="GlobalVariable" UId="22">
@@ -982,7 +528,6 @@
     <Wire UId="23">
       <Powerrail />
       <NameCon UId="21" Name="en" />
->>>>>>> Stashed changes
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
@@ -1004,11 +549,7 @@
               <MultilingualTextItem ID="39" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-                  <Text />
-=======
                   <Text>RUA_R4</Text>
->>>>>>> Stashed changes
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -1017,9 +558,6 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="3A" CompositionName="CompileUnits">
         <AttributeList>
-<<<<<<< Updated upstream
-          <NetworkSource />
-=======
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
   <Parts>
     <Call UId="21">
@@ -1037,7 +575,6 @@
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
->>>>>>> Stashed changes
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -1056,8 +593,6 @@
               <MultilingualTextItem ID="3E" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-<<<<<<< Updated upstream
-=======
                   <Text>RUA_R5</Text>
                 </AttributeList>
               </MultilingualTextItem>
@@ -1658,7 +1193,6 @@
               <MultilingualTextItem ID="84" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
->>>>>>> Stashed changes
                   <Text />
                 </AttributeList>
               </MultilingualTextItem>
@@ -1666,15 +1200,9 @@
           </MultilingualText>
         </ObjectList>
       </SW.Blocks.CompileUnit>
-<<<<<<< Updated upstream
-      <MultilingualText ID="3F" CompositionName="Title">
-        <ObjectList>
-          <MultilingualTextItem ID="40" CompositionName="Items">
-=======
       <MultilingualText ID="85" CompositionName="Title">
         <ObjectList>
           <MultilingualTextItem ID="86" CompositionName="Items">
->>>>>>> Stashed changes
             <AttributeList>
               <Culture>en-US</Culture>
               <Text>"Main Program Sweep (Cycle)"</Text>
