@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="CS_SKIDS" Datatype="Struct" Remanence="Retain">
+      <Member Name="TEMP_SP" Datatype="Real">
+        <StartValue>32.0</StartValue>
+      </Member>
+      <Member Name="START" Datatype="Bool" />
+      <Member Name="RUNNING" Datatype="Bool" />
+      <Member Name="EMG" Datatype="Bool" />
+      <Member Name="HOLD_RESUME" Datatype="Bool" />
+      <Member Name="RUUNING" Datatype="Bool" />
+      <Member Name="PUMP_SEL" Datatype="Int" />
+      <Member Name="AUTO" Datatype="Bool" />
+      <Member Name="SEMI_AUTO" Datatype="Bool" />
+      <Member Name="CP01_FAULTY" Datatype="Bool" />
+      <Member Name="CP02_FAULTY" Datatype="Bool" />
+      <Member Name="CP03_FAULTY" Datatype="Bool" />
+      <Member Name="HEADER_PSP" Datatype="Real">
+        <StartValue>2.5</StartValue>
+      </Member>
+      <Member Name="START_PLS" Datatype="Bool" />
+      <Member Name="STOP_PLS" Datatype="Bool" />
+      <Member Name="PUMP 1 RPM" Datatype="Real" />
+      <Member Name="PUMP 1RPM_SP" Datatype="Real">
+        <StartValue>49.9</StartValue>
+      </Member>
+      <Member Name="PUMP 2 RPM" Datatype="Real" />
+      <Member Name="PUMP 2 RPM_SP" Datatype="Real">
+        <StartValue>49.9</StartValue>
+      </Member>
+      <Member Name="PUMP 3 RPM" Datatype="Real" />
+      <Member Name="PUMP 3 RPM_SP" Datatype="Real">
+        <StartValue>49.9</StartValue>
+      </Member>
+      <Member Name="ew" Datatype="Bool" />
+      <Member Name="TIME_1" Datatype="Int" />
+      <Member Name="RESET" Datatype="Bool" />
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>CS_SKIDS</Name>
+      <Namespace />
+      <Number>21</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

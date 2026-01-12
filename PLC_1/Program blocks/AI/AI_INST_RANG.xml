@@ -1,0 +1,935 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="R1_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R1_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R1_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R2_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R2_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R2_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R3_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R3_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R3_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R4_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R4_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R4_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R5_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R5_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R5_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R6_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R6_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R6_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R7_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R7_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R7_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R8_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R8_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R8_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R9_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R9_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R9_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R10_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R10_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R10_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R11_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R11_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R11_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R12_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R12_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R12_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R13_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R13_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R13_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R14_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R14_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R14_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R15_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R15_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R15_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R16_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R16_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R16_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R17_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R17_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R17_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R18_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R18_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="R18_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CHS_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CHS_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CHS_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CHS_TT04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CHS_MGLT" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CH_PT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMHS_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMCS_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMCHS_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMUCHS_TT04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMHS_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMCS_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMCHS_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMUCHS_TT04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMHS_PT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMCS_PT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMCHS_PT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="SMUCHS_PT04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMHS_PT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMCS_PT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMCHS_PT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="NMUCHS_PT04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CS_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CS_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CS_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CS_TT04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="CS_MGLT" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="UCHS_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="UCHS_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="UCHS_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="UCHS_TT04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="UCHS_MGLT" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="HS_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="HS_TT02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="HS_TT03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="HS_MGLT" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/SCRB_001_PH01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/SCRB_002_PH01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/VP_01_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/VP_02_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_001_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_002_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_003_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_004_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_001_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_002_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_003_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="A/ANFD_004_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="RCVD_001_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="RCVD_002_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="RCVD_001_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="RCVD_002_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/VTD_001_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/VTD_002_APT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/VTD_001_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/VTD_002_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/TD_001_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="AI_A/TD_002_TT01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MIN" Datatype="Real">
+        <StartValue>-50.0</StartValue>
+      </Member>
+      <Member Name="MAX" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>AI_INST_RANG</Name>
+      <Namespace />
+      <Number>80</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

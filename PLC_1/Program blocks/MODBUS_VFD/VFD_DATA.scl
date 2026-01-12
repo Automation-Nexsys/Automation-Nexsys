@@ -1,0 +1,68 @@
+﻿FUNCTION_BLOCK "VFD_DATA"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      ON_OFF : Bool;
+      RESET : Bool;
+      SPEED_SP : Real;
+   END_VAR
+
+   VAR_OUTPUT 
+      READY : Bool;
+      RUNNING : Bool;
+      TRIP : Bool;
+      ACT_SPEED : Real;
+      "LOCAL/REMOTE" : Int;
+   END_VAR
+
+   VAR_IN_OUT 
+      DATA : "VFD";
+   END_VAR
+
+   VAR_TEMP 
+      SP : Real;
+      ACT : Int;
+      TEST : Int;
+   END_VAR
+
+
+BEGIN
+	// CONTROL WORD
+	#DATA.#STW.%X0 := #ON_OFF;
+	#DATA.#STW.%X1 := TRUE;
+	#DATA.#STW.%X2 := TRUE;
+	#DATA.#STW.%X3 := TRUE;
+	#DATA.#STW.%X4 := TRUE;
+	#DATA.#STW.%X5 := TRUE;
+	#DATA.#STW.%X6 := TRUE;
+	#DATA.#STW.%X7 := #RESET;
+	#DATA.#STW.%X8 := FALSE;
+	#DATA.#STW.%X9 := FALSE;
+	#DATA.#STW.%X10 := TRUE;
+	#DATA.#STW.%X11 := FALSE;
+	#DATA.#STW.%X12 := FALSE;
+	#DATA.#STW.%X13 := FALSE;
+	#DATA.#STW.%X14 := FALSE;
+	#DATA.#STW.%X15 := FALSE;
+	
+	// STATUS WORD
+	#READY := #DATA.#ZSW.%X0;
+	#RUNNING := #DATA.#ZSW.%X2;
+	#TRIP := #DATA.#ZSW.%X3;
+	
+	// ACTUAL SPEED
+	#ACT := NORM_X(MIN := 0, VALUE := #DATA.#HIW, MAX := 16384);
+	#ACT_SPEED := SCALE_X(MIN := 0.0, VALUE := #ACT, MAX := 50.0);
+	
+	// SPEED SP
+	#SP := NORM_X(MIN := 0.0, VALUE := #SPEED_SP, MAX := 50.0);
+	#DATA.#HSW := SCALE_X(MIN := 0, VALUE := #SP, MAX := 16384);
+	
+	// LOCAL / REMOTE
+	
+	#"LOCAL/REMOTE" := #DATA."LOCAL/REMOTE";
+	
+	#TEST := WORD_TO_INT(#DATA.#HIW);
+	
+END_FUNCTION_BLOCK
+

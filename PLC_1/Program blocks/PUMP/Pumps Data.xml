@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <DBAccessibleFromOPCUA>false</DBAccessibleFromOPCUA>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="R1_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R1_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="CHS_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="CHS_CP02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="CHS_CP03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R2_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R3_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R3_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R4_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R4_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R5_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R5_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R6_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R6_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R7_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R7_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R8_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R8_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R9_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R9_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R10_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R10_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R11_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R11_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R12_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R12_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R13_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R13_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R14_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R14_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R15_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R15_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R16_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R16_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R17_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R17_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R18_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="R18_AG01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time" />
+      <Member Name="STATUS" Datatype="Int" />
+    </Member>
+    <Member Name="UCHS_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="UCHS_CP02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="UCHS_PUPM_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="UCHS_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="UCHS_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="UCHS_CP03_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="UCHS_CP01_FAULTY" Datatype="Bool" />
+      <Member Name="UCHS_CP02_FAULTY" Datatype="Bool" />
+      <Member Name="UCHS_CP03_FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="CS_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+      <Member Name="FAIL TO RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="CS_CP02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+      <Member Name="FAIL TO RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="CS_CP03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+      <Member Name="FAIL TO RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="CS_PUPM_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="CS_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CS_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CS_CP03_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CS_CP01_FAULTY" Datatype="Bool" />
+      <Member Name="CS_CP02_FAULTY" Datatype="Bool" />
+      <Member Name="CS_CP03_FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="HS_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="HS_CP02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="HS_CP03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="HS_PUPM_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="HS_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="HS_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="HS_CP03_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="HS_CP01_FAULTY" Datatype="Bool" />
+      <Member Name="HS_CP02_FAULTY" Datatype="Bool" />
+      <Member Name="HS_CP03_FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="A/SCRB_001_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="A/SCRB_001_CP02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="A/SCRB_002_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="A/SCRB_002_CP02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="A/SCRB_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="A/SCRB_001_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="A/SCRB_001_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="A/SCRB_002_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="A/SCRB_002_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="A/SCRB_001_BL01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="A/SCRB_002_BL02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="A/SCRB_001_CP01_FAULTY" Datatype="Bool" />
+      <Member Name="A/SCRB_001_CP02_FAULTY" Datatype="Bool" />
+      <Member Name="A/SCRB_002_CP01_FAULTY" Datatype="Bool" />
+      <Member Name="A/SCRB_002_CP02_FAULTY" Datatype="Bool" />
+      <Member Name="A/SCRB_001_BL01_FAULTY" Datatype="Bool" />
+      <Member Name="A/SCRB_002_BL02_FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="A/SCRB_001_BL01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="A/SCRB_002_BL02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+    </Member>
+    <Member Name="A/VP_01_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+      <Member Name="FAULTY" Datatype="Bool" />
+      <Member Name="FTR" Datatype="Bool" />
+    </Member>
+    <Member Name="A/VP_02_CP01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="WT_SP" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="PUMP_SEL" Datatype="Bool" />
+      <Member Name="FAULTY" Datatype="Bool" />
+      <Member Name="FTR" Datatype="Bool" />
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>Pumps Data</Name>
+      <Namespace />
+      <Number>4</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

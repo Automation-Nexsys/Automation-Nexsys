@@ -1,0 +1,2399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <DBAccessibleFromOPCUA>false</DBAccessibleFromOPCUA>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="A/M" Datatype="Struct" Remanence="Retain">
+      <Member Name="R1" Datatype="Bool" />
+      <Member Name="R2" Datatype="Bool" />
+      <Member Name="R3" Datatype="Bool" />
+      <Member Name="R4" Datatype="Bool" />
+      <Member Name="R5" Datatype="Bool" />
+      <Member Name="R6" Datatype="Bool" />
+      <Member Name="R7" Datatype="Bool" />
+      <Member Name="R8" Datatype="Bool" />
+      <Member Name="R9" Datatype="Bool" />
+      <Member Name="R10" Datatype="Bool" />
+      <Member Name="R11" Datatype="Bool" />
+      <Member Name="R12" Datatype="Bool" />
+      <Member Name="R13" Datatype="Bool" />
+      <Member Name="R14" Datatype="Bool" />
+      <Member Name="R15" Datatype="Bool" />
+      <Member Name="R16" Datatype="Bool" />
+      <Member Name="R17" Datatype="Bool" />
+      <Member Name="R18" Datatype="Bool" />
+    </Member>
+    <Member Name="SEMI_AUTO" Datatype="Struct" Remanence="Retain">
+      <Member Name="R1" Datatype="Bool" />
+      <Member Name="R2" Datatype="Bool" />
+      <Member Name="R3" Datatype="Bool" />
+      <Member Name="R4" Datatype="Bool" />
+      <Member Name="R5" Datatype="Bool" />
+      <Member Name="R6" Datatype="Bool" />
+      <Member Name="R7" Datatype="Bool" />
+      <Member Name="R8" Datatype="Bool" />
+      <Member Name="R9" Datatype="Bool" />
+      <Member Name="R10" Datatype="Bool" />
+      <Member Name="R11" Datatype="Bool" />
+      <Member Name="R12" Datatype="Bool" />
+      <Member Name="R13" Datatype="Bool" />
+      <Member Name="R14" Datatype="Bool" />
+      <Member Name="R15" Datatype="Bool" />
+      <Member Name="R16" Datatype="Bool" />
+      <Member Name="R17" Datatype="Bool" />
+      <Member Name="R18" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5S</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="CCHS_BUXV1501" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="FAIL_TO_CLOSE" Datatype="Bool" />
+    </Member>
+    <Member Name="R1_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R2_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R3_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R4_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R5_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R6_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R7_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R8_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R9_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R10_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R11_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R12_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R13_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R14_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R15_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R16_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R17_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV01" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV02" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV03" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV04" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV05" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV06" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV07" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV08" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV09" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_XV10" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAULTY" Datatype="Bool" />
+    </Member>
+    <Member Name="R18_VALVE_FAULT" Datatype="Struct" Remanence="Retain">
+      <Member Name="XV01_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV01_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV02_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV03_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV04_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV05_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV06_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV07_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV08_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV09_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="XV010_FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="XV10_FAIL_TO_CLOSE" Datatype="Bool" />
+      <Member Name="CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="AG01_FAIL_TO RUN" Datatype="Bool" />
+      <Member Name="CH_CP01_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP02_FAIL_TO_RUN" Datatype="Bool" />
+      <Member Name="CH_CP03_FAIL_TO_RUN" Datatype="Bool" />
+    </Member>
+    <Member Name="CS_BUXV2001" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="FAIL_TO_CLOSE" Datatype="Bool" />
+    </Member>
+    <Member Name="UCHS_BUXV1501" Datatype="Struct" Remanence="Retain">
+      <Member Name="MCMD" Datatype="Bool" />
+      <Member Name="CMD" Datatype="Bool" />
+      <Member Name="RESET" Datatype="Bool" />
+      <Member Name="MON_TIME" Datatype="Time">
+        <StartValue>T#5s</StartValue>
+      </Member>
+      <Member Name="STATUS" Datatype="Int" />
+      <Member Name="FAIL_TO_OPEN" Datatype="Bool" />
+      <Member Name="FAIL_TO_CLOSE" Datatype="Bool" />
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>Valves Data</Name>
+      <Namespace />
+      <Number>3</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

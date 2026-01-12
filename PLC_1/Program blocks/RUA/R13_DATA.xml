@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="R13" Datatype="Struct" Remanence="Retain">
+      <Member Name="START" Datatype="Bool" />
+      <Member Name="Reset" Datatype="Bool" />
+      <Member Name="E stop" Datatype="Bool" />
+      <Member Name="RUNNING" Datatype="Bool" />
+      <Member Name="STEP" Datatype="Int" />
+      <Member Name="START_PLS" Datatype="Bool" />
+      <Member Name="STOP_PLS" Datatype="Bool" />
+      <Member Name="COOL_RUNNING" Datatype="Bool" />
+      <Member Name="HEAT RUNNING" Datatype="Bool" />
+      <Member Name="TEMP_SP" Datatype="Real" />
+      <Member Name="TOLERANCE_SP" Datatype="Real" />
+      <Member Name="CONTROL TYPE" Datatype="Int" />
+      <Member Name="PV" Datatype="Real" />
+      <Member Name="PRODUCT_TT" Datatype="Real" />
+      <Member Name="PUMP_CMD" Datatype="Bool" />
+      <Member Name="TOLERANCE_MET" Datatype="Bool" />
+      <Member Name="CTS_CMD" Datatype="Bool" />
+      <Member Name="CTR_CMD" Datatype="Bool" />
+      <Member Name="UCHWS_CMD" Datatype="Bool" />
+      <Member Name="CHWS_CMD" Datatype="Bool" />
+      <Member Name="HWS_CMD" Datatype="Bool" />
+      <Member Name="UCHWR_CMD" Datatype="Bool" />
+      <Member Name="CHWR_CMD" Datatype="Bool" />
+      <Member Name="HWR_CMD" Datatype="Bool" />
+      <Member Name="CTS_CMD_1" Datatype="Bool" />
+      <Member Name="CTR_CMD_1" Datatype="Bool" />
+      <Member Name="UCHWS_CMD_1" Datatype="Bool" />
+      <Member Name="CHWS_CMD_1" Datatype="Bool" />
+      <Member Name="HWS_CMD_1" Datatype="Bool" />
+      <Member Name="UCHWR_CMD_1" Datatype="Bool" />
+      <Member Name="CHWR_CMD_1" Datatype="Bool" />
+      <Member Name="HWR_CMD_1" Datatype="Bool" />
+      <Member Name="CTS_CMD_2" Datatype="Bool" />
+      <Member Name="CTR_CMD_2" Datatype="Bool" />
+      <Member Name="UCHWS_CMD_2" Datatype="Bool" />
+      <Member Name="CHWS_CMD_2" Datatype="Bool" />
+      <Member Name="HWS_CMD_2" Datatype="Bool" />
+      <Member Name="UCHWR_CMD_2" Datatype="Bool" />
+      <Member Name="CHWR_CMD_2" Datatype="Bool" />
+      <Member Name="HWR_CMD_2" Datatype="Bool" />
+      <Member Name="JACKET_CONTROL" Datatype="Bool" />
+      <Member Name="RAMP_MASS" Datatype="Bool" />
+      <Member Name="PRODUCT_CONTROL" Datatype="Bool" />
+      <Member Name="COOL_UCH_MIN_SP" Datatype="Real">
+        <StartValue>14.0</StartValue>
+      </Member>
+      <Member Name="COOL_UCH_MAX_SP" Datatype="Real">
+        <StartValue>-20.0</StartValue>
+      </Member>
+      <Member Name="COOL_CH_MIN_SP" Datatype="Real">
+        <StartValue>50.0</StartValue>
+      </Member>
+      <Member Name="COOL_CH_MAX_SP" Datatype="Real">
+        <StartValue>15.0</StartValue>
+      </Member>
+      <Member Name="COOL_CT_MIN_SP" Datatype="Real">
+        <StartValue>89.0</StartValue>
+      </Member>
+      <Member Name="COOL_CT_MAX_SP" Datatype="Real">
+        <StartValue>60.0</StartValue>
+      </Member>
+      <Member Name="COOL_HW_MIN_SP" Datatype="Real">
+        <StartValue>120.0</StartValue>
+      </Member>
+      <Member Name="COOL_HW_MAX_SP" Datatype="Real">
+        <StartValue>90.0</StartValue>
+      </Member>
+      <Member Name="HEAT_UCH_MIN_SP" Datatype="Real">
+        <StartValue>-20.0</StartValue>
+      </Member>
+      <Member Name="HEAT_UCH_MAX_SP" Datatype="Real">
+        <StartValue>-10.0</StartValue>
+      </Member>
+      <Member Name="HEAT_CH_MIN_SP" Datatype="Real">
+        <StartValue>-9.9</StartValue>
+      </Member>
+      <Member Name="HEAT_CH_MAX_SP" Datatype="Real">
+        <StartValue>5.0</StartValue>
+      </Member>
+      <Member Name="HEAT_CT_MIN_SP" Datatype="Real">
+        <StartValue>4.9</StartValue>
+      </Member>
+      <Member Name="HEAT_CT_MAX_SP" Datatype="Real">
+        <StartValue>24.0</StartValue>
+      </Member>
+      <Member Name="HEAT_HW_MIN_SP" Datatype="Real">
+        <StartValue>25.0</StartValue>
+      </Member>
+      <Member Name="HEAT_HW_MAX_SP" Datatype="Real">
+        <StartValue>120.0</StartValue>
+      </Member>
+      <Member Name="SELECT_UCHWS" Datatype="Bool" />
+      <Member Name="SELECT_CHWS" Datatype="Bool" />
+      <Member Name="SELECT_CTS" Datatype="Bool" />
+      <Member Name="SELECT_HWS" Datatype="Bool" />
+      <Member Name="UCHWS_IN" Datatype="Bool" />
+      <Member Name="CHWS_IN" Datatype="Bool" />
+      <Member Name="CTS_IN" Datatype="Bool" />
+      <Member Name="HWS_IN" Datatype="Bool" />
+      <Member Name="UCHWS_OUT" Datatype="Bool" />
+      <Member Name="CHWS_OUT" Datatype="Bool" />
+      <Member Name="CTS_OUT" Datatype="Bool" />
+      <Member Name="HWS_OUT" Datatype="Bool" />
+      <Member Name="RAMP_START" Datatype="Bool" />
+      <Member Name="RAMP_INPUT" Datatype="Real" />
+      <Member Name="MAIN_TIME" Datatype="Int" />
+      <Member Name="MAIN_RESET" Datatype="Bool" />
+      <Member Name="RAMP_TIME" Datatype="Int">
+        <StartValue>0</StartValue>
+      </Member>
+      <Member Name="RAMP_RATE" Datatype="Real" />
+      <Member Name="MAIN_COMPLETED" Datatype="Bool" />
+      <Member Name="UTILITY_SEL" Datatype="Int" />
+      <Member Name="REF_TT" Datatype="Int" />
+      <Member Name="STEP_NO" Datatype="Int" />
+      <Member Name="MAIN_PV" Datatype="Real" />
+      <Member Name="CSV_CMD_3" Datatype="Bool" />
+      <Member Name="CRV_CMD_4" Datatype="Bool" />
+      <Member Name="NORM_MIN" Datatype="Int" />
+      <Member Name="NORM_MAX" Datatype="Int">
+        <StartValue>27684</StartValue>
+      </Member>
+      <Member Name="NORM_OUT" Datatype="Real" />
+      <Member Name="SCALE_MIN" Datatype="Real" />
+      <Member Name="SCALE_MAX" Datatype="Real">
+        <StartValue>100.0</StartValue>
+      </Member>
+      <Member Name="SCVOUT" Datatype="Int" />
+      <Member Name="MAN_OUT" Datatype="Int" />
+      <Member Name="MAN_INPUT" Datatype="Int" />
+      <Member Name="AO" Datatype="Int" />
+      <Member Name="TIMER_RESET" Datatype="Bool" />
+      <Member Name="COOL_CHWS_CMD" Datatype="Bool" />
+      <Member Name="COOL_PUMP_CMD" Datatype="Bool" />
+      <Member Name="COOL_CV_CMD" Datatype="Bool" />
+      <Member Name="COOL_CS_CMD" Datatype="Bool" />
+      <Member Name="COOL_HS_CMD" Datatype="Bool" />
+      <Member Name="COOL_UCHS_CMD" Datatype="Bool" />
+      <Member Name="R13_ramp_substitute" Datatype="Real" />
+      <Member Name="COL_UTILITY_SEL" Datatype="Int" />
+      <Member Name="HET_UTILITY_SEL" Datatype="Int" />
+      <Member Name="AO_REVERSE" Datatype="Int" />
+      <Member Name="RAMP_TMR" Datatype="Int" />
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>R13_DATA</Name>
+      <Namespace />
+      <Number>39</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

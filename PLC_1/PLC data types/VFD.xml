@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="None">
+    <Member Name="STW" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="en-US">CONTROL WORD</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="ZSW" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="en-US">STATUS WORD</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="HIW" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="en-US">ACTUAL SPEED</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="HSW" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="en-US">SPEED SETPOINT</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="ADDR" Datatype="UInt">
+      <Comment>
+        <MultiLanguageText Lang="en-US">ADDRESS</MultiLanguageText>
+      </Comment>
+      <StartValue>1</StartValue>
+    </Member>
+    <Member Name="FAULT" Datatype="Bool" />
+    <Member Name="LOCAL/REMOTE" Datatype="Int" />
+  </Section>
+</Sections></Interface>
+      <Name>VFD</Name>
+      <Namespace />
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

@@ -1,0 +1,2870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.FB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="AI_TT01" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="TT_01" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="TT_02" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="TT_03" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="APT01" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="GPT01" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="GPT02" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="GPT03" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="GPT04" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="O201" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="LEL01" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="LEL02" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="PS01" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="RLT01" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="Weighing" Datatype="&quot;AI&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+  </Section>
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>100</MemoryReserve>
+      <Name>ALL_AI</Name>
+      <Namespace />
+      <Number>2</Number>
+      <ProgrammingLanguage>FBD</ProgrammingLanguage>
+      <SetENOAutomatically>false</SetENOAutomatically>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>-100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>200.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>200.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="TT01" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="TT01" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="TT01" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="TT01_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="TT01_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="TT01_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="TT01" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="TT_01" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>TT01</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>-100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>200.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>200.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="TT02" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>-200.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="TT02" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="TT02" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="TT02_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="TT02_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="TT02_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="TT02" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="TT_02" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>TT02</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="APT01" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="APT01" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="APT01" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="APT01_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="APT01_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="APT01_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="APT01" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="APT01" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="10" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>APT01</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="12" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="N2_GPT01" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="N2_GPT01" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="N2_GPT01" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="N2_GPT01_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT01_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT01_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="N2_GPT01" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="GPT01" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="13" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="14" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="15" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="16" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>GPT01</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="17" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="GPT02" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="GPT02" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="GPT02" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="GPT02_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT02_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT02_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="GPT02" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="GPT02" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="18" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="19" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="1B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>GPT02</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="1C" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="GPT03" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="GPT03" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="GPT03" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="GPT03_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT03_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT03_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="GPT03" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="GPT03" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1F" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="20" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>GPT03</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="21" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>40.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="INST_AIR_GPT04" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>20.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="INST_AIR_GPT04" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="INST_AIR_GPT04" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="GPT04_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT04_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="GPT04_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="INST_AIR_GPT04" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="GPT04" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="22" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="23" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="24" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="25" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>GPT04</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="26" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>25.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>25.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="O201" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>18.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="O201" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="O201" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="O2_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="02_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="02_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="O201" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="O201" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="27" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="28" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="29" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>O201</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="2B" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="LEL01" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="LEL01" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="LEL01" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="LEL01_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="LEL01_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="LEL01_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="LEL01" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="LEL01" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Configuration pending
+</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="2E" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>LEL01</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="30" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="LEL02" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="LEL02" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="LEL02" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="LEL02_Faulty" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="LEL02_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="LEL02_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="LEL02" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="34">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="35">
+          <Component Name="LEL02" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="34" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="34" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="34" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="34" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="34" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="34" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <OpenCon UId="36" />
+      <NameCon UId="34" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="27" />
+      <NameCon UId="34" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="28" />
+      <NameCon UId="34" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="34" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="29" />
+      <NameCon UId="34" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="34" Name="FAULT" />
+      <IdentCon UId="30" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="34" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="34" Name="H_ALM" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="34" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="34" Name="L_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="34" Name="SCALE_OUT" />
+      <IdentCon UId="33" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="31" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="32" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Instrument is not installed at site 
+</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="33" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="34" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>LEL02</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="35" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI_RLT01_PV_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>5.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI_RLT01_PV_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="RLT01" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI_RLT01_PV_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>5.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="27">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.5</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="RLT01" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>110.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="34">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>110.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="35">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI" />
+        <Component Name="RLT01" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="36">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="RLT01" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="FAULTY" />
+        <Component Name="RLT_FAULTY" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="RLT_HIGH" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="40">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="DI" />
+        <Component Name="ALARMS" />
+        <Component Name="RLT_LOW" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="41">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="AI_RLT01_PV_1" />
+      </Symbol>
+    </Access>
+    <Part Name="Ge" UId="42">
+      <TemplateValue Name="SrcType" Type="Type">Real</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="43" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Part Name="Lt" UId="44">
+      <TemplateValue Name="SrcType" Type="Type">Real</TemplateValue>
+    </Part>
+    <Part Name="Move" UId="45" DisabledENO="true">
+      <TemplateValue Name="Card" Type="Cardinality">1</TemplateValue>
+    </Part>
+    <Call UId="46">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="47">
+          <Component Name="RLT01" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="52">
+      <IdentCon UId="21" />
+      <NameCon UId="42" Name="in1" />
+    </Wire>
+    <Wire UId="53">
+      <IdentCon UId="22" />
+      <NameCon UId="42" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="42" Name="out" />
+      <NameCon UId="43" Name="en" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="23" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="43" Name="out1" />
+      <IdentCon UId="24" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="25" />
+      <NameCon UId="44" Name="in1" />
+    </Wire>
+    <Wire UId="58">
+      <IdentCon UId="26" />
+      <NameCon UId="44" Name="in2" />
+    </Wire>
+    <Wire UId="59">
+      <NameCon UId="44" Name="out" />
+      <NameCon UId="45" Name="en" />
+    </Wire>
+    <Wire UId="60">
+      <IdentCon UId="27" />
+      <NameCon UId="45" Name="in" />
+    </Wire>
+    <Wire UId="61">
+      <NameCon UId="45" Name="out1" />
+      <IdentCon UId="28" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="29" />
+      <NameCon UId="46" Name="en" />
+    </Wire>
+    <Wire UId="63">
+      <IdentCon UId="30" />
+      <NameCon UId="46" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="31" />
+      <NameCon UId="46" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="65">
+      <IdentCon UId="32" />
+      <NameCon UId="46" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="33" />
+      <NameCon UId="46" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="67">
+      <IdentCon UId="34" />
+      <NameCon UId="46" Name="HH_SP" />
+    </Wire>
+    <Wire UId="68">
+      <IdentCon UId="35" />
+      <NameCon UId="46" Name="HSP" />
+    </Wire>
+    <Wire UId="69">
+      <OpenCon UId="48" />
+      <NameCon UId="46" Name="LL_SP" />
+    </Wire>
+    <Wire UId="70">
+      <IdentCon UId="36" />
+      <NameCon UId="46" Name="LSP" />
+    </Wire>
+    <Wire UId="71">
+      <OpenCon UId="49" />
+      <NameCon UId="46" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="72">
+      <IdentCon UId="37" />
+      <NameCon UId="46" Name="INPUT" />
+    </Wire>
+    <Wire UId="73">
+      <NameCon UId="46" Name="FAULT" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="74">
+      <NameCon UId="46" Name="HH_ALM" />
+      <OpenCon UId="50" />
+    </Wire>
+    <Wire UId="75">
+      <NameCon UId="46" Name="H_ALM" />
+      <IdentCon UId="39" />
+    </Wire>
+    <Wire UId="76">
+      <NameCon UId="46" Name="LL_ALM" />
+      <OpenCon UId="51" />
+    </Wire>
+    <Wire UId="77">
+      <NameCon UId="46" Name="L_ALM" />
+      <IdentCon UId="40" />
+    </Wire>
+    <Wire UId="78">
+      <NameCon UId="46" Name="SCALE_OUT" />
+      <IdentCon UId="41" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="36" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="37" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="38" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="39" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>RLT01</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="3A" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AlwaysTRUE" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="22">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5530</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>1000.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>1000.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="WEIGHING" />
+        <Component Name="HSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="WEIGHING" />
+        <Component Name="LSP" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="ANALOG INPUT" />
+        <Component Name="WEIGHING" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="WEIGHING_FAULTY" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="WEIGHING_HIGH_ALARM" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="WEIGHING_LOW_ALARM" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DI/DO" />
+        <Component Name="WEIGHING" />
+        <Component Name="PV" />
+      </Symbol>
+    </Access>
+    <Call UId="35">
+      <CallInfo Name="AI" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="36">
+          <Component Name="Weighing" />
+        </Instance>
+        <Parameter Name="RAW_MIN" Section="Input" Type="Int" />
+        <Parameter Name="RAW_MAX" Section="Input" Type="Int" />
+        <Parameter Name="SCALE_MIN" Section="Input" Type="Real" />
+        <Parameter Name="SCALE_MAX" Section="Input" Type="Real" />
+        <Parameter Name="HH_SP" Section="Input" Type="Real" />
+        <Parameter Name="HSP" Section="Input" Type="Real" />
+        <Parameter Name="LL_SP" Section="Input" Type="Real" />
+        <Parameter Name="LSP" Section="Input" Type="Real" />
+        <Parameter Name="ALM_WT" Section="Input" Type="Time" />
+        <Parameter Name="INPUT" Section="Input" Type="Int" />
+        <Parameter Name="FAULT" Section="Output" Type="Bool" />
+        <Parameter Name="HH_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="H_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="LL_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="L_ALM" Section="Output" Type="Bool" />
+        <Parameter Name="SCALE_OUT" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="en" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="22" />
+      <NameCon UId="35" Name="RAW_MIN" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="23" />
+      <NameCon UId="35" Name="RAW_MAX" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="24" />
+      <NameCon UId="35" Name="SCALE_MIN" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="35" Name="SCALE_MAX" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="26" />
+      <NameCon UId="35" Name="HH_SP" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="HSP" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="LL_SP" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="29" />
+      <NameCon UId="35" Name="LSP" />
+    </Wire>
+    <Wire UId="49">
+      <OpenCon UId="37" />
+      <NameCon UId="35" Name="ALM_WT" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="30" />
+      <NameCon UId="35" Name="INPUT" />
+    </Wire>
+    <Wire UId="51">
+      <NameCon UId="35" Name="FAULT" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="35" Name="HH_ALM" />
+      <OpenCon UId="38" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="35" Name="H_ALM" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="LL_ALM" />
+      <OpenCon UId="39" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="35" Name="L_ALM" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="35" Name="SCALE_OUT" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="3D" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="3E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Weighing</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="3F" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource />
+          <ProgrammingLanguage>FBD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="40" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="41" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="42" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="43" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="44" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="45" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FB>
+</Document>
